@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+h1 {
+    background-color: #C4C4C4;
+    color: #005677;
+    letter-spacing: 5px;
+    padding: 8px;
+    text-align: center;
+}
+
+h3 {
+    background-color: #C4C4C4;
+    color: #005677;
+    letter-spacing: 5px;
+}
+
+span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.fechas {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.estudio {
+    font-style: normal;
+    font-weight: normal;
+    margin-right: ;
+}
+
+footer {
+    background-color: #005677;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+
+#batman {
+    display: block;
+    margin: 0 auto;
+}
+
+.iconos {
+    margin: 5px;
+}
