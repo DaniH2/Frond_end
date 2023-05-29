@@ -20,23 +20,24 @@ span {
 }
 
 .fechas {
-    font-style: normal;
-    font-weight: bold;
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 5px;
+    min-height: 100px;
 }
 
-.estudio {
-    font-style: normal;
-    font-weight: normal;
-    margin-right: ;
+main {
+    padding: 15px 25px;
 }
 
 footer {
+    align-items: center;
     background-color: #005677;
     color: white;
+    display: flex;
     font-size: 20px;
-    font-weight: bold;
-    padding: 5px;
-    text-align: center;
+    justify-content: center;
 }
 
 #batman {
