@@ -68,11 +68,14 @@ div p   {
     padding: 0px 20px;
 }
 
-div a {
-    position: relative;
-    background-color: #00669F;
-    padding: 15px 30px;
+.card-texto a {
+    text-decoration: none;
+    position: absolute;
+    right: 30%;
+    bottom: 18px;
+    background-color: #00669f;
     color: white;
+    padding: 15px 35px;
 }
 
 footer {
