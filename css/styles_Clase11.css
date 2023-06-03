@@ -3,8 +3,6 @@
     Padding:0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    list-style: none;
-    text-decoration: none;
 }
 
 .header {
@@ -19,6 +17,10 @@
 .menu__list {
     display: flex;
     gap: 1em;
+}
+
+.menu__list li {
+    list-style: none;
 }
   
 .menu__list li a {
@@ -39,16 +41,79 @@
 }
 
 .main {
-    border: 1px solid red;
+    display: flex;
+    background-color: #E5E5E5;
+    padding: 30px 19px;
+}
+
+.imagen-moto {
+    width: 100%;
 }
 
 .conteiner {
+    width: 100%;
+    border-radius: 5px;
     position: relative;
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
 }
 
+.texto1 {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: 20px;
+}
+
+.envio {
+    color: #FC200C;
+}
+
+.comprando {
+    color: white;
+}
+
+.pizzas2{
+    color: #FC200C;
+}
+
+.conteiner__pizza {
+    background-color: #FFFFFF;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+}
+.card-2 {
+    display: flex;    
+}
+
+.podio h3 {
+    color: #FC200C;
+    font-size: 24px;
+    position: absolute;
+    left: 180px;
+    top: 30px;
+}
+
+.top {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+.top h4 {
+    font-size: 20px;
+}
+
+.lista_pizza {
+    line-height: 28px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.imagen-plato {
+    position: absolute;
+    top: 120px;
+    right: 60px;
+}
 
 .footer {
     background-color: #222222;
@@ -61,12 +126,14 @@
 
 .menu__footer li a {
     color: white;
-    text-decoration: none;
     font-size: 16px;
     line-height: 28px;
+    text-decoration: none;
 }
 
-
+.menu__footer li {
+    list-style: none;
+}
 
 
 
